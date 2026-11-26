@@ -3,6 +3,8 @@ name = "benchmaxx"
 version = "0.1.0"
 description = "Near-fine-tune accuracy for decision models from a frozen LLM, a small correction head and a domain gate."
 readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 requires-python = ">=3.11"
 dependencies = [
     "numpy>=1.26",

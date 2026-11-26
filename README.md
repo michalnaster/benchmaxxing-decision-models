@@ -164,3 +164,8 @@ differ slightly, because MPS computes float32 matrix products at lower precision
 uv run pytest
 uv run ruff check .
 ```
+
+## License
+
+Apache License 2.0; see [LICENSE](LICENSE). The LLM read by default, [Qwen3.5-4B](https://huggingface.co/Qwen/Qwen3.5-4B),
+comes under its own license.
