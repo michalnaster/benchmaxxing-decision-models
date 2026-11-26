@@ -1,0 +1,12 @@
+{
+  "max_epochs": 60,
+  "batch_size": 128,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.05,
+  "warmup_epochs": 3,
+  "patience": 10,
+  "folds": 2,
+  "early_stop": "kl_per_dataset",
+  "dataset_repeats": {"typed-decisions": 4, "ag-news": 2, "boolq": 2, "enron-spam": 2},
+  "soften_gold": {"synth-business": 0.1, "synth-business-2": 0.1, "synth-business-3": 0.1, "synth-business-v2": 0.1}
+}
